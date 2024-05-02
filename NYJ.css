@@ -32,11 +32,16 @@ nav a{
     display: flex;
     font-size: x-large;
     margin-top: 5%;
-    gap: 15%;
+    gap: 50px;
 }
 .photo{
-    height:800px ;
-    width: 600px;
+    height:900px ;
+    width: 900px;
+}
+
+#words{
+    text-align: left;
+
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
     #BornACrime{
