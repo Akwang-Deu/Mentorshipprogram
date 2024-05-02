@@ -1,11 +1,4 @@
-nav a{
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    padding: 14px 16px;
-    margin-left: 8%;
-}
+
 #goals-field{
     background-color: white;
     height: 600px;
@@ -20,23 +13,39 @@ body{
     background-color: rgb(210,230,243);  
 }
 #navbar{
+    background-color:rgb(197,224,239);  
     gap: 10%;
     font-size: larger;
+  
 }
 .Logo{
     width: 5%;
-    height: 8vh;
+    height: 8vh;   
 }
 nav{
-    background-color:rgb(189,195,195) ;
-    height: 150px;
+    background-color:rgb(189,195,195);
+    height: 150px;   
     display: flex;  
     justify-content: center;
-    align-items: center;
+  align-items: center;
+}
+nav a{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10%;
+    
+   
+    
+    /* background-color:rgb(197,224,239);    */
+  
 }
 nav a:hover{
     background-color: rgb(241,255,198);
 }
+
+ 
+
 @media only screen and (min-width: 320px) and (max-width: 480px){
     nav{
         height: 350px;
